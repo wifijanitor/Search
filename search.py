@@ -1,8 +1,7 @@
-#!/usr/bin/env python
-from sys import argv
-import re
+#!/usr/bin/env python3
+import  sys, re
 
-script, part=argv
+part=sys.argv[1]
 file=open("/Cisco/price.txt", 'rt')
 
 rgx=re.compile(part, re.I)
