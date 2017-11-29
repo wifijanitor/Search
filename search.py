@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import  os,sys, re
+version=2.0
 
 part=sys.argv[1]
 file=open(os.path.expanduser('~/Cisco/price.txt'))
